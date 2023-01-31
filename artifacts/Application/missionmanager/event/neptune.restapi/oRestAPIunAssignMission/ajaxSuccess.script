@@ -1,0 +1,10 @@
+sap.m.MessageToast.show("Mission Unassigned...");
+
+oApp.backToPage(oPage);
+
+
+setTimeout(function() {
+
+    oButtonRefresh.firePress();
+
+}, 1000);

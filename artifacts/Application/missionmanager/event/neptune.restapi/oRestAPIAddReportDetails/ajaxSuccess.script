@@ -1,0 +1,16 @@
+sap.m.MessageToast.show("Report logged...");
+
+oButtonRefresh.firePress();
+
+oApp.backToPage(oPage);
+
+
+oInputMakeReportWagonNumber.setValue();
+oInputMakeReportDorrNumber.setValue();
+oInputMakeReportOpmerking.setValue();
+
+oTimePickerMakeReportStart.setValue();
+oTimePickerMakeReportEnd.setValue();
+
+oCheckBoxMakeReportTaxi.setSelected(false);
+oCheckBoxMakeReportTeam.setSelected(false);

@@ -1,0 +1,70 @@
+// //Script
+// cordova.plugins.barcodeScanner.scan(
+
+//     // success callback function
+//     function(result) {
+//         // wrapping in a timeout so the dialog doesn't free the app
+//         setTimeout(function() {
+//             alert("We got a barcode\
+// " +
+//                 "Result: " + result.text + "\
+// " +
+//                 "Format: " + result.format + "\
+// " +
+//                 "Cancelled: " + result.cancelled);
+//         }, 0);
+//     },
+
+//     // error callback function
+//     function(error) {
+//         alert("Scanning failed: " + error);
+//     },
+
+//     // options object
+//     {
+//         "preferFrontCamera": false,
+//         "showFlipCameraButton": true,
+//         "orientation": "landscape"
+//     }
+// );
+
+oDialog.open();
+
+Quagga.init({
+        inputStream : {
+        name : "Live",
+        type : "LiveStream",
+        target: document.getElementById("reader")    // Or '#yourElement' (optional)
+        },
+        decoder : {
+        readers : ["code_128_reader"]
+        }
+        }, function(err) {
+        if (err) {
+            console.log(err);
+            return
+        }
+        console.log("Initialization finished. Ready to start");
+        Quagga.start();
+});
+
+
+
+// var RandomWagonNumber = 0;
+// var RandomDoorNumber = 0;
+
+// while (RandomWagonNumber === 0) {
+//     var RandomWagonNumber = Math.floor(Math.random() * 10);
+// }
+
+// while (RandomDoorNumber === 0) {
+//     var RandomDoorNumber = Math.floor(Math.random() * 10);
+// }
+
+
+// oInputMakeReportWagonNumber.setValue(RandomWagonNumber);
+// oInputMakeReportDorrNumber.setValue(RandomDoorNumber);
+
+
+
+// sap.m.MessageToast.show("QR Code Scanned...");

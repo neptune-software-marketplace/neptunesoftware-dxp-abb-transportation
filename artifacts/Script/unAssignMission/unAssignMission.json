@@ -1,0 +1,26 @@
+{
+	"id": "3ad4cc6f-54a1-ed11-994a-0022489f9953",
+	"createdAt": "2023-01-31T10:45:55.336Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "965405E8-645D-42C5-9D49-A89712FE0019",
+			"name": "missionmanagermain",
+			"contextname": "missionmanagermain"
+		}
+	],
+	"apis": [],
+	"name": "unAssignMission",
+	"ver": "23.1.31.1046",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "6aa6ba66-54a1-ed11-994a-0022489f9953",
+	"package": "adf9674b-b89c-ed11-994a-0022489f9953"
+}

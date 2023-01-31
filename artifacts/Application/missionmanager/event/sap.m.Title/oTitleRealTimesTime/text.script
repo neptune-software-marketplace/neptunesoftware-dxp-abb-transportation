@@ -1,0 +1,8 @@
+if (typeof time === "undefined" || time === null || time === "") { return; }  
+
+//var formattedText = moment(time).format('LT'); 
+
+
+var formattedText = moment.unix(time).format('hh:mm:ss A'); 
+
+return formattedText;

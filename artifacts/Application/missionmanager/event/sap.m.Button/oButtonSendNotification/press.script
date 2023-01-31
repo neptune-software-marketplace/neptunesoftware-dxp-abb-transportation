@@ -1,0 +1,41 @@
+var journeyData = modeloPageMissionDetails.getData();
+
+console.log(journeyData);
+
+var DepTime = moment(journeyData.DepartureTime).format('HH:mm');
+
+console.log(DepTime);
+
+var options = {
+    data: {
+        "ReservationNumber": journeyData.ReservationNumber,
+        "Status": journeyData.Status,
+        "AssignedTo": journeyData.AssignedTo,
+        "PAXFirstName": journeyData.PAXFirstName,
+        "PAXLastName": journeyData.PAXLastName,
+        "PAXTelephone": journeyData.PAXTelephone,
+        "PAXEmail": journeyData.PAXEmail,
+        "AssistanceType": journeyData.AssistanceType,
+        "AssistanceComments": journeyData.AssistanceComments,
+        
+        "DepartureStation": journeyData.DepartureStation,
+        "DepartureTime": DepTime,
+        
+        "DepatureTrainNumber": journeyData.DepatureTrainNumber,
+        "ArrivalStation": journeyData.ArrivalStation,
+        "ArrivalTime": journeyData.ArrivalTime,
+        "ArrivalTrainNumber": journeyData.ArrivalTrainNumber,
+        "ArrivalWagonNumber": journeyData.ArrivalWagonNumber,
+        "ArrivalDoorNumber": journeyData.ArrivalDoorNumber,
+        "DepartureWagonNumber": journeyData.DepartureWagonNumber,
+        "DepartureDoorNumber": journeyData.DepartureDoorNumber,
+        "ReportStartTime": journeyData.ReportStartTime,
+        "ReportEndTime": journeyData.ReportEndTime
+    }
+};
+
+apioRestAPISendNotification(options);
+
+
+
+

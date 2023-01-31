@@ -1,0 +1,19 @@
+var RandomWagonNumber = 0;
+var RandomDoorNumber = 0;
+
+while (RandomWagonNumber === 0) {     var RandomWagonNumber = Math.floor(Math.random() * 10);
+  }
+
+
+while (RandomDoorNumber === 0) {
+    var RandomDoorNumber = Math.floor(Math.random() * 10);
+}
+
+
+
+oInputMakeReportWagonNumber.setValue(RandomWagonNumber);
+oInputMakeReportDorrNumber.setValue(RandomDoorNumber);
+
+
+
+sap.m.MessageToast.show("Auto-scan completed");

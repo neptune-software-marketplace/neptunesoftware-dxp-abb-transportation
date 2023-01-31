@@ -1,0 +1,30 @@
+oHBoxMissionDetailsPreAssigned1.setVisible(false);
+oHBoxMissionDetailsPreAssigned2.setVisible(false);
+
+
+oButtonMakeReport.setEnabled(false);
+oButtonAssign2.setVisible(true);
+
+//console.log("Set to false");
+
+var context = oEvent.oSource.getBindingContext();
+console.log(context)
+var details = (context.getObject());
+
+modeloPageMissionDetails.setData(details)
+console.log(details);
+
+if (details.AssignedTo !== null) {
+    if (details.AssignedTo !== "") {
+    oHBoxMissionDetailsPreAssigned1.setVisible(true);
+    oHBoxMissionDetailsPreAssigned2.setVisible(true);
+    //console.log("Set to true");
+    
+    oTitleAssignedToUsername.setText(details.AssignedTo);
+    
+    oButtonMakeReport.setEnabled(true);
+    oButtonAssign2.setVisible(false);
+}}
+
+
+oApp.to(oPageMissionDetails);

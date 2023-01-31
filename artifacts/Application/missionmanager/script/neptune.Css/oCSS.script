@@ -1,0 +1,165 @@
+@font-face {
+font-family: "CustomFont";
+src: url("https://neptune-london.live/media/root/Demo%20Material/Circular Std Book.ttf");
+}
+
+*{
+  font-family: CustomFont;
+}
+
+.PanelTitle {
+    border-bottom: 1px solid #cccccc;
+}
+
+.greyClass *{
+    color: grey!important;
+}
+
+.sapMIBar.sapMIBar-CTX.sapMBar.sapMContent-CTX.sapMBar-CTX.MainHeader.sapMPageHeader.sapMHeader-CTX.sapContrastPlus {
+    background: #25336c;
+}
+.sapMTitle.sapMTitleStyleAuto.sapMTitleNoWrap.sapUiSelectable.sapMTitleMaxWidth.HeaderTitleText.sapMBarChild {
+    color: white;
+    text-shadow: 0 0 0rem #ffffff;
+}
+:not(.sapMBtnDisabled) .sapMBtnBack > .sapMBtnIcon {
+    color: white;
+    text-shadow: 0 0 0rem #ffffff;
+}
+.sapUiIcon.sapUiIconMirrorInRTL.sapMBtnCustomIcon.sapMBtnIcon.sapMBtnIconLeft {
+    color: white;
+    text-shadow: 0 0 0rem #ffffff;
+}
+
+.sapMIBar.sapMIBar-CTX.sapMBar.sapMContent-CTX.sapMBar-CTX.StationSelect.sapMSubHeader-CTX.sapContrastPlus {
+    background: #168282
+}
+#oTextSelected {
+    color: white;
+    text-shadow: 0 0 0rem #ffffff;
+}
+#oTextMainSelectedStation {
+    color: white;
+    text-shadow: 0 0 0rem #ffffff;
+}
+
+#oButtonNewMisson {
+    background: #0069b4;
+    border-radius: 10px;
+}
+#oButtonToevoegen {
+    background: #0069b4;
+    border-radius: 10px;
+}
+#oButtonMakeReport {
+    background: #0069b4;
+    border-radius: 10px;
+}
+#oButtonMakeReport-content {
+    color: white;
+    text-shadow: 0 0 0rem #ffffff;
+}
+#oButtonMakeReport-img {
+    color: #ffffff !important;
+}
+
+#oButtonQRCodeScan-img {
+    color: white !important;
+}
+#oButtonQRCodeScan-inner {
+    border: 2px solid #0069B4;
+    border-radius: 10px;
+    background: transparent;
+}
+#oButtonNFCScan-inner {
+    border: 2px solid #0069B4;
+    border-radius: 10px;
+    background: transparent;
+}
+
+#oButtonSturen {
+    background: #0069b4;
+    border-radius: 10px;
+}
+#oButtonReprendre-inner {
+    background: #0069b4;
+    border-radius: 10px;
+}
+#oButtonReprendre-BDI-content {
+    color: white;
+    text-shadow: 0 0 0rem #ffffff;
+}
+
+#oButtonDateAdd-img {
+    color: #777a7c !important;
+}
+#oButtonDateSubtract-img {
+    color: #777a7c !important;
+}
+
+#oTitleMainHeader {
+    font-size: 1.6rem;
+}
+#oTitleMissionDetailsHeader {
+    font-size: 1.6rem;
+}
+#oTitleMainHeaderCreateMission {
+    font-size: 1.6rem;
+}
+#oTitleMakeReportHeader {
+    font-size: 1.6rem;
+}
+#oTitleMainHeaderCompletedMissions {
+    font-size: 1.6rem;
+}
+#oTitleMainHeaderJourneyDetails {
+    font-size: 1.6rem;
+}
+
+#oTextSelectedDate {
+    color: #25336c;
+    font-size: 1.4rem;
+}
+#oTextCreateMission {
+    color: #25336c;
+    font-size: 1.4rem;
+}
+#oTitleJourneyDetails {
+    color: #25336c;
+    font-size: 1.4rem;
+}
+#oTextCompletedMissions {
+    color: #25336c;
+    font-size: 1.4rem;
+}
+#oTitleInterventieverslag {
+    font-size: 1.4rem;
+    color: #25336C;
+    text-shadow: 0 0 0rem #ffffff;
+}
+
+#oButtonSeeTravelDetails-img {
+    color: black;
+}
+#oButtonSeeTravelDetails-content{
+    color: black;
+}
+
+[id^="oIconArrow-oListLiveboard-"] {
+    color: #25336C;
+}
+[id^="oIconRightArrow-oListLiveboard-"] {
+    color: #25336C;
+}
+
+#oBarSubHeaderAllOrMyMissions {
+    background: white;
+}
+
+#sapMSegBBtnInner {
+    padding: 0rem;
+}
+
+.sapMSegBBtn.sapMSegBBtnSel .sapMSegBBtnInner {
+    padding: 0rem;
+}

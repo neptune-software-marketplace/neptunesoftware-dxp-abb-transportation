@@ -1,0 +1,7 @@
+oApp.backToPage(oPageMissionDetails);
+
+var options = {
+    parameters: {
+        "station": oTextSelectedStationReport.getText(), // Required
+    }
+};

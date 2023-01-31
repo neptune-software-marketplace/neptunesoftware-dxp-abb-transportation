@@ -1,0 +1,140 @@
+{
+	"id": "965405e8-645d-42c5-9d49-a89712fe0019",
+	"createdAt": "2021-03-16T12:35:30.093Z",
+	"createdBy": "lloyd",
+	"fields": [
+		{
+			"id": "9ed20169-c169-4ed0-d702-76ad4a35c0f1",
+			"fieldName": "ReservationNumber",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "c00227e3-10f4-4105-d64d-43046558ad3c",
+			"fieldName": "Status",
+			"fieldType": "text"
+		},
+		{
+			"id": "cd3de95d-e82d-4066-e96c-2cdec0f89f11",
+			"fieldName": "AssignedTo",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "1c72c54f-dfa6-46c9-ef18-5018e0357614",
+			"fieldName": "PAXFirstName",
+			"fieldType": "text"
+		},
+		{
+			"id": "013ed789-4034-4905-d729-61f6114c6896",
+			"fieldName": "PAXLastName",
+			"fieldType": "text"
+		},
+		{
+			"id": "85d31acf-75e7-497e-b1cf-e157ad32d96c",
+			"fieldName": "PAXTelephone",
+			"fieldType": "bigint",
+			"isNullable": true
+		},
+		{
+			"id": "20052189-9049-42fc-f722-699292d788ed",
+			"fieldName": "PAXEmail",
+			"fieldType": "text"
+		},
+		{
+			"id": "93b77faf-e54a-46a2-b748-99f87763ade0",
+			"fieldName": "AssistanceType",
+			"fieldType": "text"
+		},
+		{
+			"id": "9c68377f-e1ee-43bc-b7dc-16fea6cc9b9c",
+			"fieldName": "AssistanceComments",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "b423880d-9889-44b0-a8aa-258b90d6039e",
+			"fieldName": "DepartureStation",
+			"fieldType": "text"
+		},
+		{
+			"id": "2c6ebdb7-c924-4089-d33b-6900d753b313",
+			"fieldName": "DepartureTime",
+			"fieldType": "text"
+		},
+		{
+			"id": "47ab5b09-a7da-479a-af4b-b45fe075ed7b",
+			"fieldName": "ArrivalStation",
+			"fieldType": "text"
+		},
+		{
+			"id": "cdd7473b-2e9c-4f28-bc75-f546acedea33",
+			"fieldName": "ArrivalTime",
+			"fieldType": "text"
+		},
+		{
+			"id": "acb6fca3-b75a-4a91-bc17-0f6fe983ef2e",
+			"fieldName": "ArrivalTrainNumber",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "60f9be05-de0b-4b71-cb32-bb0a7f736bff",
+			"fieldName": "ArrivalWagonNumber",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "90f720fb-88f2-4f93-e801-b79498bf8f55",
+			"fieldName": "ArrivalDoorNumber",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "d460f310-e44e-49c1-859a-aa64a4c8e4ad",
+			"fieldName": "DepatureTrainNumber",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "843b2bb6-2076-43c1-c4fa-80155595667b",
+			"fieldName": "DepartureWagonNumber",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "7c1e6bb5-c9e6-4764-c754-406322cc2599",
+			"fieldName": "DepartureDoorNumber",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "2c7c7441-5dd7-4907-9bc6-496a50b0676f",
+			"fieldName": "ReportStartTime",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "8ae81661-d54c-4c0b-da1e-e7ca92d98ae7",
+			"fieldName": "ReportEndTime",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "798af034-fa48-4ce0-be63-49fb2dac6176",
+			"fieldName": "TrainType",
+			"fieldType": "text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "missionmanagermain",
+	"description": null,
+	"ver": "23.1.30.1548",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "adf9674b-b89c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}

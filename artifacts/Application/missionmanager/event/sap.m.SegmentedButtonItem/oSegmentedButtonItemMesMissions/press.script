@@ -1,0 +1,16 @@
+oListLiveboard.setVisible(true);
+oListLiveBoardREALTIMES.setVisible(false);
+
+oSegmentedButton.setSelectedKey(1);
+
+//console.log(AppCache.userInfo.username);
+
+var options = {
+    parameters: {
+        "station": oTextMainSelectedStation.getText(), // Required
+        "name": AppCache.userInfo.username
+    }
+};
+
+console.log(options)
+apioRestAPIGetMissionsByPerson(options);

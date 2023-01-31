@@ -1,0 +1,42 @@
+[
+	{
+		"id": "d54d7bc7-74d9-4196-87bb-1ad7dfb1bfaa",
+		"createdAt": "1632152603049",
+		"updatedAt": "1635425289796",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"AssistanceType": "Blind"
+	},
+	{
+		"id": "b3d7fc0f-ac6a-4250-b42c-097d7e7f1a6e",
+		"createdAt": "1632152603049",
+		"updatedAt": "1635425289796",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"AssistanceType": "Electric wheelchair"
+	},
+	{
+		"id": "9eb084aa-2ef4-47c0-bcee-21e0a3ba5961",
+		"createdAt": "1632152603049",
+		"updatedAt": "1635425289796",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"AssistanceType": "Fixed wheelchair"
+	},
+	{
+		"id": "4e470810-ce5e-4bff-a3cd-e653242aaab7",
+		"createdAt": "1632152603049",
+		"updatedAt": "1635425289796",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"AssistanceType": "Less mobility"
+	},
+	{
+		"id": "42edfbd4-b37f-4c08-9b15-4d694ce1c74c",
+		"createdAt": "1632152603049",
+		"updatedAt": "1635425289796",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"AssistanceType": "Foldable wheelchair"
+	}
+]

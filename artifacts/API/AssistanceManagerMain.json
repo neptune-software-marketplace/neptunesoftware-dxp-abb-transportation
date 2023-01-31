@@ -1,0 +1,399 @@
+{
+	"id": "a256f4fd-5486-eb11-85aa-0003ff1e43fb",
+	"createdAt": "2021-03-16T12:42:06.803Z",
+	"createdBy": "lloyd",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "7fa94e6f-813c-411b-80ad-61dc24ab6246",
+			"path": "/missionmanagermain",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "missionmanagermain"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "b6d6cbb0-8b13-4188-bc05-60a261f18915",
+			"path": "/missionmanagermain",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "missionmanagermain"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "missionmanagermain"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "8f1f6009-94c3-4239-c10f-89c3d0ef6373",
+			"path": "/missionmanagermain",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "missionmanagermain"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "missionmanagermain"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "7a2886d1-917d-4017-8979-da4c0022edeb",
+			"path": "/missionmanagermain",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan, LessThanOrEqual, MoreThan, MoreThanOrEqual, Like, Any, IsNull, Raw"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "missionmanagermain"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "47f5fb2e-2bca-4bbc-dd1e-2419dd9bdfcd",
+			"name": "missionmanagermain",
+			"properties": [
+				{
+					"id": "4611e0b2-37b6-43e5-fa7c-e1f7671e8c3d",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "8b287b65-4754-41a4-c158-9e9c824772ef",
+					"parent": "",
+					"name": "ReservationNumber",
+					"objectType": "string"
+				},
+				{
+					"id": "5ba5fabf-d0ca-431f-9e6b-464b8fd70575",
+					"parent": "",
+					"name": "Status",
+					"objectType": "string"
+				},
+				{
+					"id": "a6e19d32-2ed0-4fca-a751-70c34bd049c3",
+					"parent": "",
+					"name": "AssignedTo",
+					"objectType": "string"
+				},
+				{
+					"id": "8d7aa67f-fcdd-4f04-8b9f-f4de44801303",
+					"parent": "",
+					"name": "PAXFirstName",
+					"objectType": "string"
+				},
+				{
+					"id": "63c3ee35-a64a-4133-94eb-ab8637e559e8",
+					"parent": "",
+					"name": "PAXLastName",
+					"objectType": "string"
+				},
+				{
+					"id": "1f1d8970-a729-4ad4-a84a-2d955e21d959",
+					"parent": "",
+					"name": "PAXTelephone",
+					"objectType": "integer"
+				},
+				{
+					"id": "ff53be34-82fc-4705-d932-970ef08806f5",
+					"parent": "",
+					"name": "PAXEmail",
+					"objectType": "string"
+				},
+				{
+					"id": "af31ae27-7ef6-414a-8eb9-1d904a42e5b8",
+					"parent": "",
+					"name": "AssistanceType",
+					"objectType": "string"
+				},
+				{
+					"id": "0a2af8a9-0ba8-49c6-e284-e66a98814a8d",
+					"parent": "",
+					"name": "AssistanceComments",
+					"objectType": "string"
+				},
+				{
+					"id": "ba739680-eecb-48a7-cf04-ada0a918a8f5",
+					"parent": "",
+					"name": "DepartureStation",
+					"objectType": "string"
+				},
+				{
+					"id": "ac4ac62c-74b5-44ef-e7fb-b5c5c5640027",
+					"parent": "",
+					"name": "DepartureTime",
+					"objectType": "string"
+				},
+				{
+					"id": "f43f93c2-0b3b-458b-d85d-83c9182af1be",
+					"parent": "",
+					"name": "ArrivalStation",
+					"objectType": "string"
+				},
+				{
+					"id": "6d3323e3-e4c3-4289-c86a-9d4a40b79953",
+					"parent": "",
+					"name": "ArrivalTime",
+					"objectType": "string"
+				},
+				{
+					"id": "bf8ea3f7-acc9-42a5-ab74-221230a9aa58",
+					"parent": "",
+					"name": "ArrivalTrainNumber",
+					"objectType": "string"
+				},
+				{
+					"id": "800c0708-2c5f-4a4c-92f6-30dfa4b4ed1c",
+					"parent": "",
+					"name": "ArrivalWagonNumber",
+					"objectType": "string"
+				},
+				{
+					"id": "f6529689-30ad-42f3-e0cf-0083104325dc",
+					"parent": "",
+					"name": "ArrivalDoorNumber",
+					"objectType": "string"
+				},
+				{
+					"id": "640e04de-b20c-45c3-f5b4-c397d82a512e",
+					"parent": "",
+					"name": "DepatureTrainNumber",
+					"objectType": "string"
+				},
+				{
+					"id": "1cb196da-39bc-48b4-b7ba-4a395cdcf702",
+					"parent": "",
+					"name": "DepartureWagonNumber",
+					"objectType": "string"
+				},
+				{
+					"id": "c4dad931-4cb3-4593-f6f3-a7640dd97f1f",
+					"parent": "",
+					"name": "DepartureDoorNumber",
+					"objectType": "string"
+				},
+				{
+					"id": "bce9778a-6ef1-41fd-be24-9b888a4a22d7",
+					"parent": "",
+					"name": "ReportStartTime",
+					"objectType": "string"
+				},
+				{
+					"id": "e9c2910f-cab2-4a47-a7f3-d08920f89a18",
+					"parent": "",
+					"name": "ReportEndTime",
+					"objectType": "string"
+				},
+				{
+					"id": "7f784aa3-e974-4857-cc93-95ac8181d0fb",
+					"parent": "",
+					"name": "TrainType",
+					"objectType": "string"
+				},
+				{
+					"id": "f40f96a4-4980-48ee-cdbd-369203ed8e4a",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "13688cae-b6cb-4b76-95f2-a67bee813859",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "d5138496-3ad8-44d4-9792-727420b828c1",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "8af0c966-7b2b-435a-977d-cb1ca687b5a5",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "8bdccd67-42d2-4248-98b6-f854d0ddadf9",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "12aa70cf-55d4-4be2-fd64-67c05f6a39fb",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "36553a7c-4ac1-43ae-9069-bc5c09e1d4a4",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "AssistanceManagerMain",
+	"endpoint": "/api/entity",
+	"ver": "23.1.25.143",
+	"version": null,
+	"description": "AssistantceManagerMain",
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": "<p><br></p>",
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "adf9674b-b89c-ed11-994a-0022489f9953",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

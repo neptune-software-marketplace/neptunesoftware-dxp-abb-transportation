@@ -1,0 +1,16 @@
+var journeyData = modeloPageMissionDetails.getData();
+
+//console.log("journeyData =",journeyData);
+
+var reservationNumber = journeyData.ReservationNumber;
+
+console.log(reservationNumber);
+
+var options = {
+    parameters: {
+        "where": '{"ReservationNumber":"' + reservationNumber + '"}'
+    }
+};
+
+apioRestAPIGetMissionsByReservationNumber(options);
+//oApp.to(oPageJourneyDetails);

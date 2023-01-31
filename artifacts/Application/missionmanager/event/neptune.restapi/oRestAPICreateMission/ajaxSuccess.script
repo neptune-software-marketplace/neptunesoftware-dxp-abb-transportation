@@ -1,0 +1,17 @@
+// Use MessageToast
+sap.m.MessageToast.show("New mission created...");
+
+oDateTimePickerVertrekstation.setValue();
+oInputVertrekstation.setValue();
+oCheckBoxVertrekstation.setSelected(false);
+
+oDateTimePickerAankomststation.setValue();
+oInputAankomststation.setValue();
+oCheckBoxAankomststation.setSelected(false);
+
+oInputSoortBijstand.setValue();
+
+oInputNaam.setValue();
+oInputVoornam.setValue();
+oInputTelefoon.setValue();
+oInputKlantEmail.setValue();

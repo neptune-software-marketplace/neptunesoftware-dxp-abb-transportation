@@ -1,0 +1,159 @@
+{
+	"id": "64b99be0-5486-eb11-85aa-0003ff1e43fb",
+	"createdAt": "2021-03-16T12:41:07.870Z",
+	"createdBy": "lloyd",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "304af3b5-b54e-4031-cefb-4d6558477ef5",
+			"method": "GET",
+			"path": "/liveboard/?id=(id)&format=json",
+			"description": "",
+			"parameters": [
+				{
+					"name": "id",
+					"description": "",
+					"required": true,
+					"inPath": true,
+					"value": "",
+					"default": "BE.NMBS.008892007",
+					"example": ""
+				},
+				{
+					"name": "date",
+					"description": "",
+					"required": false,
+					"inPath": true,
+					"value": "",
+					"default": "311220",
+					"example": ""
+				},
+				{
+					"name": "time",
+					"description": "",
+					"required": false,
+					"inPath": true,
+					"value": "",
+					"default": "1230",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": [
+						{
+							"id": "ae189a10-4de8-45c1-a2b2-108668e82c78",
+							"name": "body",
+							"objectType": "object"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "8e1a5132-eb41-44d6-add9-22e487e42129",
+			"method": "GET",
+			"path": "/stations/?format=json&lang=en",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": [
+						{
+							"id": "8fe15e67-205c-4c20-975f-9ba5b40b77be",
+							"name": "body",
+							"objectType": "object"
+						}
+					]
+				}
+			],
+			"summary": ""
+		},
+		{
+			"id": "fe3a564a-3694-44d6-c4c6-88459160dbb4",
+			"method": "GET",
+			"path": "/vehicle/?d=(id)&date=(date)&format=json&lang=en",
+			"description": "",
+			"parameters": [
+				{
+					"name": "id",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "BE.NMBS.008892007",
+					"example": ""
+				},
+				{
+					"name": "date",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "311220",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": [
+						{
+							"id": "b7cdcb11-f043-4a02-a566-402eebeabc84",
+							"name": "body",
+							"objectType": "object"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "4cd7f2c0-3bec-49e6-dd33-ed838f684823",
+			"name": "body",
+			"description": "",
+			"isInclude": false,
+			"properties": []
+		}
+	],
+	"documentation": [],
+	"name": "iRailAPI",
+	"endpoint": "https://api.irail.be",
+	"ver": "23.1.31.1055",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "",
+	"about": null,
+	"enableProxy": true,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "adf9674b-b89c-ed11-994a-0022489f9953",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

@@ -1,0 +1,233 @@
+{
+	"id": "c07f11f0-5486-eb11-85aa-0003ff1e43fb",
+	"createdAt": "2021-03-16T12:41:33.813Z",
+	"createdBy": "lloyd",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "b8d8c6f2-95fc-41a5-c3a1-4fe31644b70d",
+			"method": "POST",
+			"path": "/AddReportDetails",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"serverScript": "4c7cb336-55a1-ed11-994a-0022489f9953",
+			"content": [
+				{
+					"name": "data",
+					"objectType": "object"
+				}
+			]
+		},
+		{
+			"id": "c203f4a0-94a6-4d29-d7be-953bc001133a",
+			"method": "POST",
+			"path": "/AssignMission",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"serverScript": "1e418b1b-55a1-ed11-994a-0022489f9953",
+			"content": [
+				{
+					"name": "data",
+					"objectType": "object"
+				}
+			]
+		},
+		{
+			"id": "1ebd299c-a1ee-49a0-a055-bab62499dd02",
+			"method": "GET",
+			"path": "/getMissionsByLocation",
+			"description": "",
+			"parameters": [
+				{
+					"name": "station",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": [
+						{
+							"id": "f7c49b3c-26c3-4025-ad74-31073846f99e",
+							"name": "data",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"serverScript": "8cfe76cf-54a1-ed11-994a-0022489f9953"
+		},
+		{
+			"id": "7a858e7f-f3a6-4e86-cae9-3b4f35b5e456",
+			"method": "GET",
+			"path": "/getMissionsByPerson",
+			"description": "",
+			"parameters": [
+				{
+					"name": "station",
+					"description": "",
+					"required": true,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				},
+				{
+					"name": "name",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": [
+						{
+							"id": "09d00ccf-c539-4bfd-89fb-c0f2e5d026c8",
+							"name": "data",
+							"objectType": "array"
+						}
+					]
+				}
+			],
+			"serverScript": "23e296b6-54a1-ed11-994a-0022489f9953"
+		},
+		{
+			"id": "dfb465a8-ad59-48b2-88b7-79e172a0295d",
+			"method": "POST",
+			"path": "/PushNotification",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"serverScript": "d1e3395e-55a1-ed11-994a-0022489f9953",
+			"content": [
+				{
+					"name": "data",
+					"objectType": "object"
+				}
+			]
+		},
+		{
+			"id": "04387c87-cd30-4a6e-ac3d-3b3072a81c74",
+			"method": "POST",
+			"path": "/Reset",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"serverScript": "cd33678e-54a1-ed11-994a-0022489f9953"
+		},
+		{
+			"id": "af707ee0-4aa6-4a97-fd1b-deae2d732fe1",
+			"method": "POST",
+			"path": "/unAssignMission",
+			"description": "",
+			"parameters": [],
+			"headers": [],
+			"responses": [
+				{
+					"status": "200",
+					"description": "OK",
+					"headers": [],
+					"body": [],
+					"content": []
+				}
+			],
+			"serverScript": "3ad4cc6f-54a1-ed11-994a-0022489f9953",
+			"content": [
+				{
+					"name": "data",
+					"objectType": "object"
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "0e3dda8e-fa14-4507-c18b-d5a80b658a5e",
+			"name": "data",
+			"description": "",
+			"isInclude": false,
+			"properties": []
+		}
+	],
+	"documentation": [],
+	"name": "AssistanceManager ScriptAPI",
+	"endpoint": "/api/serverscript/assistancemanagerscriptapi",
+	"ver": "23.1.31.1054",
+	"version": null,
+	"description": null,
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": "<p><br></p>",
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": true,
+	"useOwnProcess": false,
+	"package": "adf9674b-b89c-ed11-994a-0022489f9953",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

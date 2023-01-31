@@ -1,0 +1,17 @@
+OpenoMessageBoxMakeReportConfirm();
+
+// var data = modeloPageMissionDetails.getData();
+// //console.log("***",data);
+
+
+// var options = {
+//     data: {
+//         "id": data.id,
+//         "DepatureWagonNumber": oInputMakeReportWagonNumber.getValue(),
+//         "DepatureDoorNumber": oInputMakeReportDorrNumber.getValue(),
+//         "ReportStartTime": oTimePickerMakeReportStart.getValue(),
+//         "ReportEndTime": oTimePickerMakeReportEnd.getValue()
+//     }
+// };
+
+// apioRestAPIAddReportDetails(options);

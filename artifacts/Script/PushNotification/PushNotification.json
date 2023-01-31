@@ -1,0 +1,20 @@
+{
+	"id": "d1e3395e-55a1-ed11-994a-0022489f9953",
+	"createdAt": "2023-01-31T10:52:35.356Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "PushNotification",
+	"ver": "23.1.31.1052",
+	"description": null,
+	"content": "file:///content.script",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "6aa6ba66-54a1-ed11-994a-0022489f9953",
+	"package": "adf9674b-b89c-ed11-994a-0022489f9953"
+}

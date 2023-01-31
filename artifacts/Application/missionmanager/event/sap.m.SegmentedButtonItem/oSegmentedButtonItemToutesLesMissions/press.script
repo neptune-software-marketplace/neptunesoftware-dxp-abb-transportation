@@ -1,0 +1,14 @@
+oListLiveboard.setVisible(true);
+oListLiveBoardREALTIMES.setVisible(false);
+oSegmentedButton.setSelectedKey(2);
+
+var options = {
+    parameters: {
+        "station": oTextMainSelectedStation.getText() // Required 
+    }
+};
+
+
+
+
+apioRestAPIGetMissions(options);

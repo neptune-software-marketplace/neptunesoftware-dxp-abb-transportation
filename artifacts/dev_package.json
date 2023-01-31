@@ -1,0 +1,138 @@
+{
+	"id": "adf9674b-b89c-ed11-994a-0022489f9953",
+	"createdAt": "2023-01-25T13:58:08.163Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-transportation"
+	},
+	"name": "neptunesoftware-dxp-abb-transportation",
+	"description": "DXP Transportation Scenario",
+	"ver": "23.1.31.1059",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "282c1d2a-4fcc-405b-afee-dcefaa0d0bf7",
+			"application": "missionmanager",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "c07f11f0-5486-eb11-85aa-0003ff1e43fb",
+			"name": "AssistanceManager ScriptAPI",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "a256f4fd-5486-eb11-85aa-0003ff1e43fb",
+			"name": "AssistanceManagerMain",
+			"description": "AssistantceManagerMain",
+			"apiGroup": null
+		},
+		{
+			"id": "a056f4fd-5486-eb11-85aa-0003ff1e43fb",
+			"name": "AssistanceManagerAssistanceTypes",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "64b99be0-5486-eb11-85aa-0003ff1e43fb",
+			"name": "iRailAPI",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "965405e8-645d-42c5-9d49-a89712fe0019",
+			"name": "missionmanagermain",
+			"description": null
+		},
+		{
+			"id": "615140c0-8663-4b0f-bf71-42e7bd78df02",
+			"name": "missionmanagerassistancetypes",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "d1e3395e-55a1-ed11-994a-0022489f9953",
+			"name": "PushNotification",
+			"description": null
+		},
+		{
+			"id": "cd33678e-54a1-ed11-994a-0022489f9953",
+			"name": "Reset",
+			"description": null
+		},
+		{
+			"id": "8cfe76cf-54a1-ed11-994a-0022489f9953",
+			"name": "getMissionByLocation",
+			"description": null
+		},
+		{
+			"id": "4c7cb336-55a1-ed11-994a-0022489f9953",
+			"name": "AddReportDetails",
+			"description": null
+		},
+		{
+			"id": "3ad4cc6f-54a1-ed11-994a-0022489f9953",
+			"name": "unAssignMission",
+			"description": null
+		},
+		{
+			"id": "23e296b6-54a1-ed11-994a-0022489f9953",
+			"name": "getMissionByPerson",
+			"description": null
+		},
+		{
+			"id": "1e418b1b-55a1-ed11-994a-0022489f9953",
+			"name": "AssignMission",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "6aa6ba66-54a1-ed11-994a-0022489f9953",
+			"name": "Transportation",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "8898a8b1-1516-ec11-ae72-0050f255283a",
+			"description": null,
+			"name": "Transportation"
+		}
+	],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": [
+		{
+			"id": "38DB2934-2416-EC11-AE72-0050F255283A",
+			"updatedAt": "2023-01-31T10:41:27.286Z",
+			"name": "Transportation",
+			"parent": null,
+			"package": "ADF9674B-B89C-ED11-994A-0022489F9953"
+		}
+	]
+}

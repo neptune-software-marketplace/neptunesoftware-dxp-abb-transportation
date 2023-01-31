@@ -1,0 +1,15 @@
+if (typeof Status === "undefined" || Status === null || Status === "") { return; }  
+var formattedText; 
+switch(Status){
+    case "CREATED":
+        formattedText = "";
+        break;
+    case "ASSIGNED":
+        formattedText = oTextAcceptedByCol.getText();
+        break;
+    break;
+    
+    
+    
+}
+return formattedText;

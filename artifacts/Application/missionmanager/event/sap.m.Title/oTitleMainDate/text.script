@@ -1,0 +1,4 @@
+if (typeof DepartureTime === "undefined" || DepartureTime === null || DepartureTime === "") { return; }  
+var formattedText = moment(DepartureTime).format('MMMM Do YYYY')
+return formattedText;
+

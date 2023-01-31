@@ -1,0 +1,14 @@
+if (oEvent === "OK"){
+    var data = modeloPageMissionDetails.getData();
+    
+    var options = {
+        data: {
+            "id": data.id
+        }
+    };
+
+    apioRestAPIunAssignMission(options);
+    
+}
+
+

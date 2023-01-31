@@ -1,0 +1,6 @@
+// Use MessageToast
+sap.m.MessageToast.show("No live data available...");
+
+// jQuery.sap.require("sap.m.MessageBox");
+// oApp.setBusy(false);
+// sap.m.MessageBox.show(xhr.responseText);

@@ -1,0 +1,13 @@
+// var AssistanceTypesJson = [
+//     {"AssistanceType":"Opvouwbare rolstoel / Foldable wheelchair"},
+//     {"AssistanceType":"Vaste rolstoel / Fixed wheelchair"},
+//     {"AssistanceType":"Elektrische rolstoel / Electric wheelchair"},
+//     {"AssistanceType":"Minder mobiliteit / Less mobility"},
+//     {"AssistanceType":"Slechtziend / Blind"}]
+    
+//     oSelectSoortBijstand.setData(AssistanceTypesJson);
+
+
+oApp.to(oPageCreateMission);
+
+

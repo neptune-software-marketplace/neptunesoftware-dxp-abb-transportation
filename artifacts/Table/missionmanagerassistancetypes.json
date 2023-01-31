@@ -1,0 +1,22 @@
+{
+	"id": "615140c0-8663-4b0f-bf71-42e7bd78df02",
+	"createdAt": "2021-03-16T12:35:31.430Z",
+	"createdBy": "lloyd",
+	"fields": [
+		{
+			"id": "4c8640c5-549c-4f88-8571-31d795383fa0",
+			"fieldName": "AssistanceType",
+			"fieldType": "text"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "missionmanagerassistancetypes",
+	"description": null,
+	"ver": "23.1.25.141",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "adf9674b-b89c-ed11-994a-0022489f9953",
+	"rolesRead": [],
+	"rolesWrite": []
+}

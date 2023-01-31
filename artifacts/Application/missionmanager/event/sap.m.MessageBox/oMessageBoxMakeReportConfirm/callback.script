@@ -1,0 +1,16 @@
+if (oEvent === "OK"){
+
+var data = modeloPageMissionDetails.getData();
+
+var options = {
+    data: {
+        "id": data.id,
+        "DepatureWagonNumber": oInputMakeReportWagonNumber.getValue(),
+        "DepatureDoorNumber": oInputMakeReportDorrNumber.getValue(),
+        "ReportStartTime": oTimePickerMakeReportStart.getValue(),
+        "ReportEndTime": oTimePickerMakeReportEnd.getValue()
+    }
+};
+
+apioRestAPIAddReportDetails(options);
+}

@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-transportation",
 	"description": "DXP Transportation Scenario",
-	"ver": "23.1.31.1059",
+	"ver": "23.1.31.110",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -114,8 +114,20 @@
 			"name": "Transportation"
 		}
 	],
-	"category": [],
-	"launchpad": [],
+	"category": [
+		{
+			"id": "79dd404f-f4a6-ed11-a8e0-0022489f97c8",
+			"description": null,
+			"name": "Transportation"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "f47910d3-f4a6-ed11-a8e0-0022489f97c8",
+			"name": "Transportation",
+			"description": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],

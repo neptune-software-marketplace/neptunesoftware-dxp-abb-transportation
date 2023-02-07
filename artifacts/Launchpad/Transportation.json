@@ -1,0 +1,72 @@
+{
+	"id": "f47910d3-f4a6-ed11-a8e0-0022489f97c8",
+	"createdAt": "2023-02-07T14:36:37.180Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"extUserRoles": [],
+	"extUserDepartments": [],
+	"catOrder": [
+		"79dd404f-f4a6-ed11-a8e0-0022489f97c8"
+	],
+	"layout": [],
+	"config": {
+		"enhancement": ""
+	},
+	"enhancement": [],
+	"name": "Transportation",
+	"title": "Transportation",
+	"description": null,
+	"startApp": null,
+	"startWebApp": null,
+	"customLogo": null,
+	"launchpadApp": "planet9_launchpad_standard",
+	"hideSidemenu": false,
+	"ui5Version": null,
+	"ui5Url": null,
+	"ui5Theme": null,
+	"header": [
+		"==OBJECT STRING==",
+		"<script src=\"//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js\" type=\"text/javascript\"></script>",
+		"",
+		"<script src=\"https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js\"></script>"
+	],
+	"customTheme": null,
+	"isExternal": false,
+	"emailPattern": null,
+	"loginApp": null,
+	"enableNotifications": false,
+	"firebaseProjectId": null,
+	"firebaseAppId": null,
+	"defaultLoginIDP": null,
+	"publicAccess": false,
+	"css": null,
+	"clientRequestTimeout": 120,
+	"limitWidth": false,
+	"searchBackgroundType": null,
+	"searchBackgroundColor": null,
+	"searchBackgroundShade": null,
+	"usedBackgroundType": null,
+	"usedBackgroundColor": null,
+	"usedBackgroundShade": null,
+	"searchEnableShadeCalc": null,
+	"usedEnableShadeCalc": null,
+	"enableTrace": false,
+	"ver": "23.2.7.1437",
+	"pwa_enable": false,
+	"pwa_customImageIos": null,
+	"pwa_customImageAndroidOld": null,
+	"pwa_customImageAndroidNew": null,
+	"pwa_displayMode": null,
+	"pwa_themeColor": null,
+	"pwa_backgroundColor": null,
+	"passwordResetEmail": null,
+	"activationCodeEmail": null,
+	"package": "adf9674b-b89c-ed11-994a-0022489f9953",
+	"cat": [
+		{
+			"id": "79dd404f-f4a6-ed11-a8e0-0022489f97c8",
+			"name": "Transportation",
+			"title": "Transportation",
+			"ver": "23.2.7.1432"
+		}
+	]
+}

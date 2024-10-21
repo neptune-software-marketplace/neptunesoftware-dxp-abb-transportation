@@ -6285,18 +6285,6 @@
 			"fieldNo": 99999,
 			"data": [
 				{
-					"fieldNo": "efdf6f26-a224-4e62-f23d-acc21c017cac",
-					"fieldName": "onInit",
-					"fieldParent": 99999,
-					"fieldType": "neptune.event.oninit",
-					"script": "pupulateStationOnInit();",
-					"customComponent": false,
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
-				{
 					"fieldNo": "fd5c801e-acd9-4fcc-cef4-53a60bfc76dc",
 					"fieldName": "oMsgDataNotSaved",
 					"fieldParent": 99999,
@@ -7334,7 +7322,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.10.21.1512",
+	"ver": "24.10.21.1556",
 	"application": "missionmanager_v2",
 	"title": "",
 	"description": "",

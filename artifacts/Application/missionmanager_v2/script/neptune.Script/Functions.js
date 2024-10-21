@@ -1,19 +1,20 @@
-function pupulateStationOnInit(){
+function populateStationOnInit(){
     OpenoMsgInfo();
 
     var preSelectedStation = "Frankfurt";
 
-var options = {
-    parameters: {
-        "station": preSelectedStation // Required 
-    }
-};
+    var options = {
+        parameters: {
+            "station": preSelectedStation // Required 
+        }
+    };
 
-oTextMainSelectedStation.setText(preSelectedStation);
+    oTextMainSelectedStation.setText(preSelectedStation);
 
-apioRestAPIGetMissions(options);
+    apioRestAPIGetMissions(options);
 }
 
+populateStationOnInit();
 
 // Date functions
 var date = moment()

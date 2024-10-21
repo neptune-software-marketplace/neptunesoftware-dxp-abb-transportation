@@ -56,7 +56,7 @@
 	"helpText": "<p><strong>Traveller Assistance Application</strong></p><p><strong><br></strong></p><p>This application has been designed to serve a specific purpose: facilitating and improving the station/train mobility for customers with special needs.</p><p>The Traveller Assistance Application allows the assistant to manage and coordinate its activity troughout the day by using the application's functionalities: accept missions, create missions, select stations, create reports, among many others. <br></p><p>Therefore the assistant will be able to ensure quality assistance service for all the customers. <br></p>",
 	"helpEnabled": true,
 	"openClickTile": false,
-	"ver": "24.07.01.1436",
+	"ver": "24.10.21.1520",
 	"actionWebApp": null,
 	"name": "Transportation",
 	"cardWidth": "",

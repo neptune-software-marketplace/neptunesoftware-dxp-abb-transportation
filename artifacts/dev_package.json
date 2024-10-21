@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-transportation",
 	"description": "DXP Transportation Scenario",
-	"ver": "24.10.21.1516",
+	"ver": "24.10.21.1521",
 	"enableCICD": true,
 	"apps": [
 		{

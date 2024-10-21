@@ -1,0 +1,38 @@
+oApp.setBusy(true);
+
+var numberOfItems = oListLiveboard.getSelectedItems().length;
+//console.log(numberOfItems)
+
+
+//get array of items and for loop over
+for (i = 0; i < numberOfItems; i++) {
+    var data = oListLiveboard.getSelectedItems()[i].getBindingContext().getObject()
+    //console.log(data);
+
+    var options = {
+        data: {
+            "id": data.id // Required 
+        }
+    };
+
+    apioRestAPIAssignMission(options);
+    
+    //oListLiveboard.getItems()[i].setSelected(false)
+}
+
+var boardLength = oListLiveboard.getItems().length;
+//console.log("boardLength =",boardLength);
+for (i = 0; i < boardLength; i++) {
+    oListLiveboard.getItems()[i].setSelected(false)
+}
+
+oButtonAssign.setVisible(false);
+
+setTimeout(function() {
+
+    oButtonRefresh.firePress();
+    oSegmentedButtonItemMesMissions.firePress();
+    oSegmentedButton.setSelectedButton(oSegmentedButtonItemMesMissions);
+
+}, 1000);
+

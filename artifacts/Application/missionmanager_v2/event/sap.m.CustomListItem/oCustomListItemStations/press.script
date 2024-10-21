@@ -1,0 +1,65 @@
+
+
+var context = oEvent.oSource.getBindingContext();
+var details = (context.getObject());
+
+//console.log(details);
+
+var id = details.id
+var stationName = details.name;
+oTextMainSelectedStation.setText(stationName);
+
+// ----- DATE PROCESSING -----
+var date = new Date();
+//console.log(date);
+
+var day = date.getDate()
+if (day.toString().length === 1) {
+    day = "0"+day
+}
+
+var month = (date.getMonth() + 1)
+if (month.toString().length === 1) {
+    month = "0"+month
+}
+
+var year = date.getFullYear()
+year = year.toString();
+year = year.slice(2, 4);
+
+//console.log(day+month+year);
+var formattedDate = day+month+year;
+
+
+// ----- TIME PROCESSING -----
+
+var hour = date.getHours();
+hour = hour.toString();
+var minute = date.getMinutes();
+minute = minute.toString();
+
+//console.log(hour+minute);
+var formattedTime = hour+minute
+
+
+
+// var options = {
+//     "id": id, // Required - In Path
+//     "date": formattedDate, // Optional - In Path
+//     "time": formattedTime // Optional - In Path
+
+// };
+// apioRestAPIGetLiveboard(options);
+
+
+var options = {
+    parameters: {
+        "station": oTextMainSelectedStation.getText() // Required 
+    }
+};
+
+oApp.setBusy(true);
+
+apioRestAPIGetMissions(options);
+
+oDialogSelectStation.close();

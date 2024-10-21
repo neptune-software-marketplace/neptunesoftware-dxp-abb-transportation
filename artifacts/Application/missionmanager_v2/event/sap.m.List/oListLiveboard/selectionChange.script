@@ -1,0 +1,28 @@
+var selectedItem = oListLiveboard.getSelectedItem();
+//console.log(selectedItem);
+
+if (selectedItem) {
+    
+    var context = selectedItem.getBindingContext();
+
+    var value = context.getProperty("oListLiveboard");
+
+    var data = context.getObject();
+    
+    //console.log(data);
+
+    if (data.status = "ASSIGNED"){
+        
+    }
+}
+
+
+
+
+if (oListLiveboard.getSelectedItems().length > 0) {
+    oButtonAssign.setVisible(true);
+}
+else {
+    oButtonAssign.setVisible(false);
+
+}

@@ -1,0 +1,11 @@
+OpenoMsgDataNotSaved();
+
+oApp.backToPage(oPage);
+
+setTimeout(function() {
+
+    oButtonRESET.firePress();
+    oButtonRefresh.firePress();
+
+}, 1000);
+

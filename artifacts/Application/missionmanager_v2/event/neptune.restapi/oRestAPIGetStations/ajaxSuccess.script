@@ -1,0 +1,12 @@
+var data = modeloMultiModelStations.oData.station;
+
+
+
+//console.log("DATA", data);
+
+//modeloSelectDialogStations.setData(data);
+
+//modeloSelectStationVertrekstation.setData(data);
+//modeloSelectStationAankomststation.setData(data);
+//modeloSelectMakeReportStation.setData(data);
+

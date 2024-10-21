@@ -1,7 +1,0 @@
-apioRestAPIReset();
-
-setTimeout(function() {
-
-    oButtonRefresh.firePress();
-
-}, 1000);

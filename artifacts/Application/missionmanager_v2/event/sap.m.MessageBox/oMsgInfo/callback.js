@@ -1,0 +1,2 @@
+
+oPopoverIntro.openBy(oButtonSelectStation);

@@ -1,0 +1,29 @@
+var station = oTextMainSelectedStation.getText();
+var data = modeloMultiModelStations.oData.station;
+
+for (i = 0; i < data.length; i++){
+    if (data[i].name === station){
+        var station = data[i].id;
+    }
+}
+
+var options = {
+    parameters: {
+        "station": oTextMainSelectedStation.getText() // Required 
+    }
+};
+
+
+
+
+apioRestAPIGetMissions(options);
+
+
+
+
+apioRestAPIGetLiveboardREALTIMES(options);
+
+
+
+// Use MessageToast
+sap.m.MessageToast.show("Refreshed!");

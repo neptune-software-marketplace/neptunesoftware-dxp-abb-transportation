@@ -1,0 +1,20 @@
+var options = {
+    data: {
+        "id": modeloPageMissionDetails.getData().id // Required 
+    }
+};
+
+apioRestAPIAssignMission(options);
+
+
+
+oApp.backToPage(oPage);
+
+oSegmentedButton.setSelectedKey(1);
+
+setTimeout(function() {
+
+    oButtonRefresh.firePress();
+    oSegmentedButtonItemMesMissions.firePress();
+    oSegmentedButton.setSelectedButton(oSegmentedButtonItemMesMissions);
+}, 1000);

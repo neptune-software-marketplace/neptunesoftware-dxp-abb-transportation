@@ -1,0 +1,40 @@
+var a = xhr.responseJSON;
+//console.log("GETMISSIONBYPERSON: ", a);
+
+setTimeout(function() {
+    
+    oListLiveboard.getItems().forEach(function(i) {
+        var oContext = i.getBindingContext().getObject();
+        var isAssigned = oContext.AssignedTo;
+        
+        var oCB = i.$().find("[id$='-selectMulti']");
+        
+        if (oCB.length === 0) {
+            console.error("Checkbox element not found for item:", i);
+            return;
+        }
+
+        var oCheckBox = oCB.attr('id');
+        
+        if (!oCheckBox) {
+            console.error("Checkbox ID not found for element:", oCB);
+            return;
+        }
+
+        var checkBoxElement = document.getElementById(oCheckBox);
+        
+        if (!checkBoxElement) {
+            console.error("Checkbox DOM element not found for ID:", oCheckBox);
+            return;
+        }
+
+        if (isAssigned !== "") {
+            checkBoxElement.style.visibility = "hidden";
+        } else {
+            checkBoxElement.style.visibility = "visible";
+        }
+    });
+    }, 10);
+
+oApp.setBusy(false);
+

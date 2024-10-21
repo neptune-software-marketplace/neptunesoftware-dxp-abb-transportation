@@ -1,0 +1,65 @@
+var a = xhr.responseJSON;
+
+
+setTimeout(function () {
+
+    oListLiveboard.getItems().forEach(function(i) {
+        var oContext = i.getBindingContext().getObject();
+        var isAssigned = oContext.AssignedTo;
+        
+        var oCB = i.$().find("[id$='-selectMulti']");
+        
+        if (oCB.length === 0) {
+            console.error("Checkbox element not found for item:", i);
+            return;
+        }
+
+        var oCheckBox = oCB.attr('id');
+        
+        if (!oCheckBox) {
+            console.error("Checkbox ID not found for element:", oCB);
+            return;
+        }
+
+        var checkBoxElement = document.getElementById(oCheckBox);
+        
+        if (!checkBoxElement) {
+            console.error("Checkbox DOM element not found for ID:", oCheckBox);
+            return;
+        }
+
+        if (isAssigned !== "") {
+            checkBoxElement.style.visibility = "hidden";
+        } else {
+            checkBoxElement.style.visibility = "visible";
+        }
+    });
+
+    // oListLiveboard.getItems().forEach(function (i) {
+    //     //console.log(i.sId);
+
+    //     var oContext = i.getBindingContext().getObject();
+    //     var ArrivalStation = oContext.ArrivalStation;
+    //     var DepartureStation = oContext.DepartureStation;
+
+    //     if (ArrivalStation === oTextMainSelectedStation.getText()) {
+    //         i.getContent()[0].getItems()[0].addStyleClass("greyClass");
+    //         i.getContent()[0].getItems()[0].getItems()[2].setVisible(false);
+    //         i.getContent()[0].getItems()[4].removeStyleClass("greyClass");
+    //         i.getContent()[0].getItems()[4].getItems()[2].setVisible(true);
+    //     } else {
+    //         i.getContent()[0].getItems()[4].addStyleClass("greyClass");
+    //         i.getContent()[0].getItems()[0].getItems()[2].setVisible(true);
+    //         i.getContent()[0].getItems()[0].removeStyleClass("greyClass");
+    //         i.getContent()[0].getItems()[4].getItems()[2].setVisible(false);
+    //     }
+
+    //     // var namedI = i.sId.slice(16)
+    //     // var xxx = "oTitleDepStation-"+namedI+"-inner"
+
+    //     // var xyz = document.getElementById(xxx).textContent;
+    //     // console.log(xyz)
+    // });
+}, 10);
+
+oApp.setBusy(false);

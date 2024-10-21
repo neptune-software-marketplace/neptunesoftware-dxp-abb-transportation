@@ -7,14 +7,17 @@
 	},
 	"name": "neptunesoftware-dxp-abb-transportation",
 	"description": "DXP Transportation Scenario",
-	"ver": "23.1.31.110",
+	"ver": "24.10.21.1516",
 	"enableCICD": true,
 	"apps": [
 		{
-			"id": "282c1d2a-4fcc-405b-afee-dcefaa0d0bf7",
-			"application": "missionmanager",
+			"id": "6beaa13a-b737-ef11-86c1-000d3adf0f0d",
+			"application": "missionmanager_v2",
 			"title": "",
-			"description": ""
+			"description": "",
+			"package": {
+				"id": "ADF9674B-B89C-ED11-994A-0022489F9953"
+			}
 		}
 	],
 	"api": [
@@ -109,12 +112,27 @@
 	"api_group": [],
 	"tile": [
 		{
+			"id": "b228b12f-671f-ef11-86d2-000d3ad88627",
+			"description": null,
+			"name": "Transportation Demo"
+		},
+		{
 			"id": "8898a8b1-1516-ec11-ae72-0050f255283a",
 			"description": null,
 			"name": "Transportation"
+		},
+		{
+			"id": "1def3ffe-7cfd-ee11-aaf0-000d3adaf09c",
+			"description": null,
+			"name": "Transportation V2"
 		}
 	],
 	"category": [
+		{
+			"id": "bc9d695a-671f-ef11-86d2-000d3ad88627",
+			"description": null,
+			"name": "Transportation V2"
+		},
 		{
 			"id": "79dd404f-f4a6-ed11-a8e0-0022489f97c8",
 			"description": null,
@@ -138,13 +156,7 @@
 	"wf_definition": [],
 	"connector": [],
 	"events": [],
-	"media_library": [
-		{
-			"id": "38DB2934-2416-EC11-AE72-0050F255283A",
-			"updatedAt": "2023-01-31T10:41:27.286Z",
-			"name": "Transportation",
-			"parent": null,
-			"package": "ADF9674B-B89C-ED11-994A-0022489F9953"
-		}
-	]
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
 }

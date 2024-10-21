@@ -60,6 +60,7 @@
 	"imageMobileSize": null,
 	"hideFromMenu": false,
 	"roleTag": null,
+	"cockpitTileGroup": false,
 	"package": "adf9674b-b89c-ed11-994a-0022489f9953",
 	"roles": [],
 	"tiles": [
@@ -67,7 +68,7 @@
 			"id": "8898a8b1-1516-ec11-ae72-0050f255283a",
 			"name": "Transportation",
 			"title": "Transportation",
-			"ver": "23.1.31.1057"
+			"ver": "24.07.01.1436"
 		}
 	],
 	"tilegroups": []

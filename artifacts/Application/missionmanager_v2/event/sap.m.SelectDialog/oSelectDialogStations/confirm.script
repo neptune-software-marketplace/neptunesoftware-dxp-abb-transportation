@@ -1,0 +1,49 @@
+// Single Select
+// Replace FIELD to your required field
+var selectedItem = oEvent.getParameter("selectedItem");
+var context = selectedItem.getBindingContext();
+var value = context.getProperty("ArrivalStation");
+
+oTextMainSelectedStation.setText(value);
+oButtonRefresh.setVisible(true);
+
+oSegmentedButton.setEnabled(true);
+
+
+var station = value;
+var data = modeloMultiModelStations.getData();
+
+
+
+for (i = 0; i < data.length; i++){
+    if (data[i].name === station){
+        var station = data[i].id;
+    }
+}
+
+
+var options = {
+    parameters: {
+        "station": value // Required 
+    }
+};
+
+
+if (oSegmentedButton.getSelectedKey() == 2) {
+    apioRestAPIGetMissions(options);
+} else if (oSegmentedButton.getSelectedKey() == 1) {
+    apioRestAPIGetMissionsByPerson(options);
+} else {
+   var options = {
+    "id": station, // Required - In Path
+    "date": date.format('DDMMYY'), // Optional - In Path
+    "time": date.format('hhmm') // Optional - In Path
+
+};
+//console.log(options)
+
+
+
+apioRestAPIGetLiveboardREALTIMES(options);
+}
+

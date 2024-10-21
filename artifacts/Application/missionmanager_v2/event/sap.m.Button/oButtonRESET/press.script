@@ -1,0 +1,7 @@
+apioRestAPIReset();
+
+setTimeout(function () {
+    oButtonRefresh.firePress();
+    oSegmentedButtonItemToutesLesMissions.firePress();
+    oSegmentedButton.setSelectedButton(oSegmentedButtonItemToutesLesMissions);
+}, 1000);

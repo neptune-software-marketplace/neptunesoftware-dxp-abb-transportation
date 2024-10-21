@@ -1,0 +1,28 @@
+oListLiveboard.setVisible(false);
+
+oListLiveBoardREALTIMES.setVisible(true);
+oSegmentedButton.setSelectedKey(3);
+
+
+var station = oTextMainSelectedStation.getText();
+var data = modeloMultiModelStations.oData.station;
+//console.log(station);
+//console.log(data);
+
+
+for (i = 0; i < data.length; i++){
+    if (data[i].name === station){
+        var station = data[i].id;
+        //console.log(station)
+    }   
+}
+
+var options = {
+    "id": station, // Required - In Path
+    //"date": date.format('DDMMYY') // Optional - In Path
+    //"time": date.format('HHmm') // Optional - In Path
+
+};
+
+//console.log(options)
+apioRestAPIGetLiveboardREALTIMES(options);

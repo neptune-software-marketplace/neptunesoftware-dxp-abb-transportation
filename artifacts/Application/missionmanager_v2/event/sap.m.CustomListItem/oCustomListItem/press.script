@@ -1,0 +1,29 @@
+oButtonReprendre.setVisible(false);
+oButtonReprendre.setVisible(false);
+
+
+oButtonMakeReport.setEnabled(false);
+oButtonAssign2.setVisible(true);
+
+
+var context = oEvent.oSource.getBindingContext();
+//console.log(context)
+var details = (context.getObject());
+
+modeloPageMissionDetails.setData(details)
+
+
+if (details.AssignedTo !== null) {
+    if (details.AssignedTo !== "") {
+    oHBoxMissionDetailsPreAssigned1.setVisible(true);
+    oButtonReprendre.setVisible(true);
+
+    
+    oTitleAssignedToUsername.setText(details.AssignedTo);
+    
+    oButtonMakeReport.setEnabled(true);
+    oButtonAssign2.setVisible(false);
+}}
+
+
+oApp.to(oPageMissionDetails);

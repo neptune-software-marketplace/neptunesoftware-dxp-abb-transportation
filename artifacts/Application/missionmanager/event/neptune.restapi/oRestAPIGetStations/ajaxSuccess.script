@@ -1,9 +1,0 @@
-var data = modeloMultiModelStations.oData.station;
-
-
-modeloSelectDialogStations.setData(data);
-
-modeloSelectStationVertrekstation.setData(data);
-modeloSelectStationAankomststation.setData(data);
-//modeloSelectMakeReportStation.setData(data);
-

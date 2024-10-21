@@ -1,0 +1,76 @@
+var data = modeloMultiModelLiveboardREALTIMES.oData.departures;
+
+//console.log(data.departure)
+modeloListLiveBoardREALTIMES.setData(data.departure);
+
+
+
+// ----- DATA EXAMPLE -----
+
+//         "departure": [{
+
+
+//             "id": "0",
+//             "delay": "0",
+//             "station": "Poperinge",
+//             "stationinfo": {
+//                 "locationX": "2.736343",
+//                 "locationY": "50.854449",
+//                 "id": "BE.NMBS.008896735",
+//                 "name": "Poperinge",
+//                 "@id": "http://irail.be/stations/NMBS/008896735",
+//                 "standardname": "Poperinge"
+//             },
+//             "time": "1601462160",
+//             "vehicle": "BE.NMBS.IC711",
+//             "vehicleinfo": {
+//                 "name": "BE.NMBS.IC711",
+//                 "@id": "http://irail.be/vehicle/IC711"
+//             },
+//             "platform": "6",
+//             "platforminfo": {
+//                 "name": "6",
+//                 "normal": "1"
+//             },
+//             "canceled": "0",
+//             "left": "0",
+//             "isExtra": "0",
+//             "departureConnection": "http://irail.be/connections/8892007/20200930/IC711",
+//             "occupancy": {
+//                 "name": "unknown",
+//                 "@id": "http://api.irail.be/terms/unknown"
+//             }
+//         }, {
+
+
+//             "id": "1",
+//             "delay": "0",
+//             "station": "Lille Flandres",
+//             "stationinfo": {
+//                 "locationX": "3.066669",
+//                 "locationY": "50.633333",
+//                 "id": "BE.NMBS.008728600",
+//                 "name": "Lille Flandres",
+//                 "@id": "http://irail.be/stations/NMBS/008728600",
+//                 "standardname": "Lille Flandres"
+//             },
+//             "time": "1601462160",
+//             "vehicle": "BE.NMBS.IC711",
+//             "vehicleinfo": {
+//                 "name": "BE.NMBS.IC711",
+//                 "@id": "http://irail.be/vehicle/IC711"
+//             },
+//             "platform": "6",
+//             "platforminfo": {
+//                 "name": "6",
+//                 "normal": "1"
+//             },
+//             "canceled": "0",
+//             "left": "0",
+//             "isExtra": "0",
+//             "departureConnection": "http://irail.be/connections/8892007/20200930/IC711",
+//             "occupancy": {
+//                 "name": "unknown",
+//                 "@id": "http://api.irail.be/terms/unknown"
+//             }
+//         }, 

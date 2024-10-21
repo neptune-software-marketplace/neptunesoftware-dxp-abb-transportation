@@ -259,6 +259,7 @@
 	"apiType": "table",
 	"about": "<p><br></p>",
 	"enableProxy": false,
+	"forwardProxy": null,
 	"restrictAccess": false,
 	"enableTrace": false,
 	"enableIDE": true,
